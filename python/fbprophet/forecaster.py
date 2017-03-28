@@ -376,7 +376,7 @@ class Prophet(object):
             seasonal_features.append(self.make_seasonality_features(
                 df['ds'],
                 365.25,
-                10,
+                25,
                 'yearly',
             ))
 
